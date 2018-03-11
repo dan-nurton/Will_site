@@ -60,4 +60,3 @@ require('footer.php');
 ?>
 
 
-hello
