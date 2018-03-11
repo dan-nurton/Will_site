@@ -1,0 +1,290 @@
+/* style Accueil */
+
+[class*="col-"]{;
+  text-align: center;
+}
+
+h1{
+	font-size:4em;
+	text-shadow: black 1px 0 10px;
+}
+
+.red{
+	color:#ff0000;
+}
+
+.green{
+	color: #33cc33;
+}
+
+
+.description{
+	font-size: 1.5em;
+	text-shadow: black 1px 0 10px;
+	color: white;
+	margin-bottom: 50px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+body{
+ 
+  	background: url("image/bois.jpg") no-repeat fixed;
+  	background-size:cover;
+  }
+
+header{
+	text-align:center;
+	background-color: rgba(56, 56, 56, 0.8);
+	color:#1669bc;
+	line-height: 150px;
+	font-family: 'Pacifico', cursive;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+nav{
+	 background-image: linear-gradient(to right,#ff0000,#33cc33,blue);
+	 font-family: 'Lobster', cursive;
+	 font-size: 1.2em;
+}
+
+.navbar-toggler-icon{
+	color:white;
+}
+
+.item{
+	margin-top: 10px;
+}
+
+footer{
+	background-color: rgba(30, 30, 30,1);
+	color:white;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	font-size: 0.8em;
+}
+
+#navigation:hover{
+
+	color:white;
+}
+
+ /* style services */
+
+ .service{
+ 	color:white;
+ 	line-height: 50px;
+ 	font-family: 'Pacifico', cursive;
+ }
+
+ .cliquer{
+ 	padding-right: 20px;
+ 	font-size: 0.2em;
+ 	font-style: italic;
+ 	font-family: 'Josefin Sans', sans-serif;
+ }
+
+ .containerService{
+ 	background-color: rgba(56, 56, 56, 0.8);
+ 	padding-bottom: 30px;
+ }
+
+ .service h1{
+ 	margin-top: 100px;
+ 	margin-bottom: 100px;
+ }
+
+ .btn{
+ 	background-color: grey;
+ 	color:black;
+ }
+
+ section h1{
+ 	color:white;
+ 	text-shadow: black 1px 0 10px;
+ 	font-family: 'Josefin Sans', sans-serif;
+ }
+
+.btn {
+ 	border-color: #7f4c1f;
+ }
+
+ .btn:hover{
+ 	background-color:#7f4c1f;
+ }
+
+ .galerie{
+ 	color:white;
+ 	line-height: 50px;
+ 	font-family: 'Josefin Sans', sans-serif;
+ }
+
+
+.formulaire{
+
+	line-height: 50px;
+}
+
+
+.contact{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.success,.fail{
+	font-family: 'Lobster', cursive;
+	color:white;
+
+}
+
+.form-control{
+	overflow-y: hidden;
+}
+
+.explication{
+	color:white;
+	background-color: rgba(0,0,0, 0.5);
+	margin-top: 30px;
+	font-family: times new roman;
+	font-size: 1.2em;
+}
+
+.explication a{
+	font-family: 'Pacifico', cursive;
+	color:white;
+}
+row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: black;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.artisan{
+		display:none;
+	}
+/* Styles pour cette Media Queries */
+}
+
